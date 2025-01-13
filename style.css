@@ -1,0 +1,228 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    direction: rtl; 
+}
+
+.container {
+    width: 60vw;
+    height: 60vh;
+    padding: 1rem;
+    background-color: #313131;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img-container {
+    background-image: url("icon.jpg");
+    background-position:center;
+    flex: 1;    
+    height: 57vh;
+    background-color: #414141;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-wrapper {
+    width: inherit;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+    height: 60px;
+    border: 1px solid white;
+    position: relative;
+    right: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.back-btn {
+    width: 140px;
+    height: 23px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    font-family: sans-serif;
+    color: #ffffff;
+    position: relative;
+    left: 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .bottom-wrapper {
+    width: inherit;
+    height: 150px;
+    border: 1px solid white;
+} */
+
+.form-container {
+    flex: 1;    
+    height: 57vh;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-container {
+    width: 368px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    text-align: right; 
+}
+
+.title {
+    width: inherit;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 34px;
+    color: white;
+    text-align: right; 
+}
+
+.subtitle {
+    width: inherit;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: right; 
+}
+
+.fill-container {
+    width: 425px;
+    height: 210px;
+}
+
+.names-wrapper {
+    width: inherit;
+    height: 65px;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-name input{
+    width: 175px;
+    height: 55px;
+    border: 0px;
+    background-color: #4b4a4a;
+    border-radius: 7px;
+}
+
+.last-name input {
+    width: 175px;
+    height: 55px;
+    border: 0px;
+    background-color: #4b4a4a;
+    border-radius: 7px;
+}
+
+.account-creation {
+    width: inherit;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.email input{
+    width: 362px;
+    height: 55px;    
+    border: 0px;
+    background-color: #4b4a4a;
+    border-radius: 7px;
+}
+
+.phone input {
+    width: 362px;
+    height: 55px;
+    padding-left: 5px; 
+    background-color: #4b4a4a;
+    border: 0px;
+    border-radius: 7px;
+    text-align: right; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+}
+
+.view-password {
+    width: 45px;
+    height: 45px;
+    color: white;
+    opacity: 0.3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.terms-container {
+    width: 280px;
+    height: 20px;
+    display: flex;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 10px;
+    right: 30px;
+}
+
+.terms-text a:link {
+    color: rgb(105, 145, 105);
+    font-weight: 600;
+}
+
+.terms-text {
+    color: white;
+}
+
+.creation-container {
+    width: 425px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.create-btn {
+    width: 362px;
+    height: 55px;
+    background-color: #8b74ca;
+    border-radius: 7px;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
+    font-family: sans-serif;
+}
+
+.create-btn h1 {
+    font-size: 20px;
+    color: white; 
+    text-align: center;
+    direction: ltr;
+}
