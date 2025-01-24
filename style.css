@@ -116,7 +116,6 @@ body {
 
 .names-wrapper {
     width: inherit;
-    height: 65px;
     gap: 15px;
     display: flex;
     align-items: center;
@@ -226,3 +225,62 @@ body {
     text-align: center;
     direction: ltr;
 }
+
+
+@media (max-width: 1199px) {
+    .container {
+        width: 40vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-container {
+        display: none;
+    }
+}
+
+@media (max-width: 935px) {
+    .container { 
+        width: 80vw;
+    }
+
+    .title-container {
+    }
+
+    .names-wrapper {
+        flex-direction: column;
+    }
+
+    .first-name input {
+        width: 75vw;   
+    }
+    
+    .last-name input {
+        width: 75vw;   
+    }
+
+    .email input {     
+        width: 75vw;   
+        height: 55px;    
+    }
+
+    .phone input {     
+        width: 75vw;   
+     }
+
+     .title-container {
+        align-items: center;
+        justify-content: center;
+     }
+
+     .creation-container {
+        flex-direction: column;
+        justify-content: end;
+     }
+
+    .create-btn {
+        width: 75vw;   
+    }
+}
+
