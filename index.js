@@ -65,7 +65,7 @@ function handleFormSubmit() {
       ...data,
       to_name: "PrimeTech",
       from_name: firstName.value,
-      email: "gideon123ewq@gmail.com",
+      email: "prmtchdmn@gmail.com",
     },
     true
   );
