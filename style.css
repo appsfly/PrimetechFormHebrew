@@ -243,6 +243,11 @@ body {
 @media (max-width: 935px) {
     .container { 
         width: 80vw;
+        height: none;
+    }
+
+    .form-container {
+        height: none;
     }
 
     .names-wrapper {
